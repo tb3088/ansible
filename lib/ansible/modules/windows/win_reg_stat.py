@@ -52,14 +52,9 @@ EXAMPLES = r'''
 '''
 
 RETURN = r'''
-changed:
-  description: Whether anything was changed.
-  returned: always
-  type: bool
-  sample: true
 exists:
   description: States whether the registry key/property exists.
-  returned: success and path/property exists
+  returned: always
   type: bool
   sample: true
 properties:

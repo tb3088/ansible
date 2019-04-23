@@ -1,0 +1,6 @@
+https://github.com/ansible/ansible/issues/12862
+  but also add ANSIBLE_PLAYBOOK_BASEDIR and --playbook_basedir to override `basedir of playbook.yaml`?
+
+look at leveraging group_priority and how that could be applied to the iterative passes of VAR files.
+https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html#group-variables
+ see 'ansible_group_priority' - this could be bastardized into auto-namespace'ing variables.
